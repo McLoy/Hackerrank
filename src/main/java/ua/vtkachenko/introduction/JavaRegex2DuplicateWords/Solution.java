@@ -25,7 +25,6 @@ public class Solution {
             String input = in.nextLine();
 
             Matcher m = p.matcher(input);
-
             // Check for subsequences of input that match the compiled pattern
             while (m.find()) {
                 input = input.replaceAll(m.group(), m.group(1));
