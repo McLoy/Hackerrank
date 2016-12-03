@@ -16,7 +16,6 @@ public class Solution {
     public static void main(String[] args) {
 
         String regex = "\\b(\\w+)(\\b\\W+\\b\\1\\b)*";
-
         Pattern p = Pattern.compile(regex, Pattern.MULTILINE+Pattern.CASE_INSENSITIVE);
 
         Scanner in = new Scanner(System.in);
