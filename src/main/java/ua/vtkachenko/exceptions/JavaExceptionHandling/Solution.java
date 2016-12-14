@@ -1,6 +1,5 @@
 package ua.vtkachenko.exceptions.JavaExceptionHandling;
 
-import java.io.*;
 import java.util.*;
 /*
 INPUT
