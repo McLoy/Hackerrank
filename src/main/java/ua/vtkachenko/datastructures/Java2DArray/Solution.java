@@ -1,4 +1,4 @@
-package ua.vtkachenko.datastructures.Java1DArray.Java2DArray;
+package ua.vtkachenko.datastructures.Java2DArray;
 
 import java.util.Scanner;
 
