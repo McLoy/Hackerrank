@@ -34,14 +34,13 @@ public class Solution {
             visitedArray = new boolean[length];
             Arrays.fill(visitedArray, false);
             jump = sc.nextInt();
-            for (int n_i = 0; n_i < length; n_i++) {
-                currArray[n_i] = sc.nextInt();
+            for (int h = 0; h < length; h++) {
+                currArray[h] = sc.nextInt();
             }
             int temp = 0;
             result = false;
             isPossible(temp);
-            if (result) System.out.println("YES");
-            else System.out.println("NO");
+            System.out.println(result ? "YES" : "NO");
         }
 
     }
